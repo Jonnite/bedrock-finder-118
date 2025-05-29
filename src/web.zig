@@ -28,6 +28,7 @@ export fn searchInit(
             &.{ .bedrock, .bedrock, .bedrock },
             &.{ .bedrock, .other, .bedrock },
             &.{ .bedrock, .bedrock, .bedrock },
+            &.{ .bedrock, .bedrock, .bedrock },
         }},
     };
 
