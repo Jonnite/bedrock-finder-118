@@ -26,7 +26,7 @@ export fn searchInit(
         .gen = gen,
         .pattern = &.{&.{ // TODO: un-hardcode
             &.{ .bedrock, .bedrock, .bedrock },
-            &.{ .bedrock, .bedrock, .bedrock },
+            &.{ .bedrock, .other, .bedrock },
             &.{ .bedrock, .bedrock, .bedrock },
         }},
     };
