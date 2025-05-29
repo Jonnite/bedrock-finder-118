@@ -7,6 +7,7 @@ const pattern: []const []const []const ?bedrock.Block = &.{&.{
     &.{ .bedrock, .bedrock, .bedrock },
     &.{ .bedrock, .other, .bedrock },
     &.{ .bedrock, .bedrock, .bedrock },
+    &.{ .bedrock, .bedrock, .bedrock },
 }};
 
 pub fn main() anyerror!void {
