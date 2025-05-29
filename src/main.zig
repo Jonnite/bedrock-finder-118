@@ -5,7 +5,7 @@ const bedrock = @import("bedrock.zig");
 // Layers along Y, rows along Z, columns along X
 const pattern: []const []const []const ?bedrock.Block = &.{&.{
     &.{ .bedrock, .bedrock, .bedrock },
-    &.{ .bedrock, .bedrock, .bedrock },
+    &.{ .bedrock, .other, .bedrock },
     &.{ .bedrock, .bedrock, .bedrock },
 }};
 
